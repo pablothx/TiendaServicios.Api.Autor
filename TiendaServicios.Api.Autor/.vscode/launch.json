@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "Udemy.Miceoservices.dotne.core.practice:TiendaServicios.Api.Autor::TiendaServicios.Api.Autor.Controllers.AutorController::Crear (dotnetcore3.1)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "",
+                "lambdaHandler": "TiendaServicios.Api.Autor::TiendaServicios.Api.Autor.Controllers.AutorController::Crear"
+            },
+            "lambda": {
+                "runtime": "dotnetcore3.1",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}
