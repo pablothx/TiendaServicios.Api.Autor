@@ -43,3 +43,9 @@
 /home/pablo/sitrack/repos/github/Udemy.Miceoservices.dotne.core.practice/TiendaServicios.Api.Autor/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
 /home/pablo/sitrack/repos/github/Udemy.Miceoservices.dotne.core.practice/TiendaServicios.Api.Autor/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
 /home/pablo/sitrack/repos/github/Udemy.Miceoservices.dotne.core.practice/TiendaServicios.Api.Autor/obj/Debug/netcoreapp3.1/TiendaServicios.Api.Autor.csproj.CopyComplete
+/home/pablo/sitrack/repos/github/Udemy.Miceoservices.dotne.core.practice/TiendaServicios.Api.Autor/bin/Debug/netcoreapp3.1/FluentValidation.dll
+/home/pablo/sitrack/repos/github/Udemy.Miceoservices.dotne.core.practice/TiendaServicios.Api.Autor/bin/Debug/netcoreapp3.1/FluentValidation.AspNetCore.dll
+/home/pablo/sitrack/repos/github/Udemy.Miceoservices.dotne.core.practice/TiendaServicios.Api.Autor/bin/Debug/netcoreapp3.1/FluentValidation.DependencyInjectionExtensions.dll
+/home/pablo/sitrack/repos/github/Udemy.Miceoservices.dotne.core.practice/TiendaServicios.Api.Autor/obj/Debug/netcoreapp3.1/TiendaServicios.Api.Autor.MvcApplicationPartsAssemblyInfo.cs
+/home/pablo/sitrack/repos/github/Udemy.Miceoservices.dotne.core.practice/TiendaServicios.Api.Autor/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/home/pablo/sitrack/repos/github/Udemy.Miceoservices.dotne.core.practice/TiendaServicios.Api.Autor/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

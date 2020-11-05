@@ -12,6 +12,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using TiendaServicios.Api.Autor.Persistencia;
 using TiendaServicios.Api.Autor.Aplicacion;
+using FluentValidation.AspNetCore;
+using AutoMapper;
 
 namespace TiendaServicios.Api.Autor
 {
@@ -27,13 +29,14 @@ namespace TiendaServicios.Api.Autor
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers().AddFluentValidation(cfg  => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
             services.AddDbContext<ContextoAutor>(options =>
            {
                options.UseNpgsql(Configuration.GetConnectionString("ConexionDatabase"));
            });
 
             services.AddMediatR(typeof(Nuevo.Manejador).Assembly);
+            services.AddAutoMapper(typeof(Consulta.Manejador));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
