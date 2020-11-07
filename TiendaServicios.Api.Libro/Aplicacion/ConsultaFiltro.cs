@@ -22,6 +22,12 @@ namespace TiendaServicios.Api.Libro.Aplicacion
         {
             private readonly ContextoLibreria _contexto;
             private readonly IMapper _mapper;
+
+            public Manejador(ContextoLibreria contexto, IMapper mapper)
+            {
+                _contexto = contexto;
+                _mapper= mapper;
+            }
             public async Task<LibroMaterialDto> Handle(LibroUnico request, CancellationToken cancellationToken)
             {
                 var libro = await _contexto.LibreriaMaterial.Where(x => x.LibreriaMaterialId == request.LibroId).FirstOrDefaultAsync();
